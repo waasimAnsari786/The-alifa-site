@@ -1,0 +1,116 @@
+/* here's my css variables */
+:root {
+    --font-color-white: #ffffff;
+    --main-bg-color: #4D8BFC;
+
+    --my-font: "Atkinson Hyperlegible", sans-serif;
+
+    --line-height-lg: 5rem;
+    --line-height-md: 2rem;
+    --line-height-sm: 1rem;
+
+    --ctnr-padding: 10rem 0 0 0;
+    --ctnr-padding-sm: 1rem;
+    --mb-padding: 3.5rem;
+
+    --margin-lg: 3rem;
+    --margin-md: 2rem;
+    --margin-sm: 1rem;
+
+    --font-size-xl: 4.5rem;
+    --font-size-lg: 3rem;
+    --font-size-md-2: 2rem;
+    --font-size-md: 1.6rem;
+    --font-size-sm: 1.3rem;
+
+    --font-weight-xl: bold;
+    --font-weight-lg: 500;
+    --font-weight-md: 400;
+    --font-weight-sm: 300;
+
+    --letter-spacing: .1rem;
+
+    --border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+/* my font size's media query start */
+html {
+    font-size: 62.5%;
+}
+
+@media (min-width:1200px) {
+    html {
+        font-size: 68.75%;
+    }
+}
+
+@media (min-width:1000px) {
+    html {
+        font-size: 68.75%;
+    }
+}
+
+@media (max-width:992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width:768px) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+/* my font size's media query end */
+
+
+
+
+
+
+
+/* the alifa's site start */
+
+
+
+
+
+/* the alifa's site end */
+
+
+
+
+
+
+/* those classes which i used permanantly */
+.rough {
+    border: .1rem solid rgb(0, 0, 0);
+}
+
+.ctnr-padding {
+    padding: var(--ctnr-padding);
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html a{
+    text-decoration: none;
+}
